@@ -1,38 +1,38 @@
 [
-	{
-		"name": "TempMail.Best",
-		"description": "Best Temporary Email.",
-		"image": "/assets/images/projects/tempmail.best.png",
-		"url": "https://tempmail.best"
-	},
-	{
-		"name": "DNS.Surf",
-		"description": "Querying DNS Resolution Results in Different Regions Worldwide.",
-		"image": "/assets/images/projects/dns.surf.png",
-		"url": "https://dns.surf"
-	},
-	{
-		"name": "HTML.ZONE",
-		"description": "Web Toolbox.",
-		"image": "/assets/images/projects/html.zone.png",
-		"url": "https://html.zone"
-	},
-	{
-		"name": "Sink",
-		"description": "A Simple / Speedy / Secure Link Shortener with Analytics.",
-		"image": "/assets/images/projects/sink.cool.png",
-		"url": "https://sink.cool"
-	},
-	{
-		"name": "BroadcastChannel",
-		"description": "Turn your Telegram Channel into a MicroBlog.",
-		"image": "/assets/images/projects/broadcast-channel.png",
-		"url": "https://github.com/ccbikai/BroadcastChannel"
-	},
-	{
-		"name": "L(O*62).ONG",
-		"description": "Make your URL looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooonger",
-		"image": "/assets/images/projects/long.png",
-		"url": "https://loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo.ong"
-	}
+  {
+    "name": "DNS.SURF",
+    "url": "https://dns.surf",
+    "image": "/assets/images/projects/dns.surf.png",
+    "summary": "一个简单易用的DNS查询工具，支持DoH、DoT和DoQ。"
+  },
+  {
+    "name": "HTML.ZONE",
+    "url": "https://html.zone",
+    "image": "/assets/images/projects/html.zone.png",
+    "summary": "一个简单易用的HTML游乐场，支持实时预览和分享。"
+  },
+  {
+    "name": "SINK.COOL",
+    "url": "https://sink.cool",
+    "image": "/assets/images/projects/sink.cool.png",
+    "summary": "一个支持自定义域名的临时邮箱服务，可以实时接收邮件。"
+  },
+  {
+    "name": "TEMPMAIL.BEST",
+    "url": "https://tempmail.best",
+    "image": "/assets/images/projects/tempmail.best.png",
+    "summary": "一个支持自定义域名的临时邮箱服务，可以实时接收邮件。"
+  },
+  {
+    "name": "BROADCAST-CHANNEL",
+    "url": "https://broadcast-channel.dev",
+    "image": "/assets/images/projects/broadcast-channel.png",
+    "summary": "一个简单易用的BroadcastChannel API，支持页面间的实时通信。"
+  },
+  {
+    "name": "LONG.PNG",
+    "url": "https://long.png.page",
+    "image": "/assets/images/projects/long.png",
+    "summary": "一个简单易用的长图生成工具。"
+  }
 ]

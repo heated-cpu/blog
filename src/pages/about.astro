@@ -5,26 +5,26 @@ import PageHeading from "../components/page-heading.astro";
 import Layout from "../layouts/main.astro";
 ---
 
-<Layout title="About Me">
+<Layout title="关于我">
   <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
     <PageHeading
-      title="About Me"
-      description="Hello 👋 I'm a frontend engineer from Nanjing, China. I'm passionate about building new products and learning new technology."
+      title="关于我"
+      description="你好 👋 我是 ron，一名来自中国的网络安全渗透测试工程师。我热衷于构建新产品和学习新技术。"
     />
 
     <img src="/assets/images/about.jpg" class="relative z-30 w-full my-10 rounded-xl" />
 
-    <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">Short Bio</h2>
+    <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">个人简介</h2>
     <p
       class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
-      Front-end cutter 🧑🏻‍💻, back-end amateur 🤷🏻‍♂️, operations digging holes person 🤦🏻‍♂️.
+      渗透测试工程师 🧑🏻‍💻，后端爱好者 🤷🏻‍♂️，运维挖坑人 🤦🏻‍♂️.
     </p>
 
     <h2
       class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
     >
-      Experience
+      工作经历
     </h2>
     <div class="px-5 py-10">
       {
@@ -32,10 +32,10 @@ import Layout from "../layouts/main.astro";
           return (
             <div class="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
               <AboutExperience
-                dates={experience.dates}
-                role={experience.role}
+                dates={experience.time}
+                role={experience.position}
                 company={experience.company}
-                description={experience.description}
+                description={experience.summary}
                 logo={experience.logo}
               />
             </div>
@@ -44,17 +44,17 @@ import Layout from "../layouts/main.astro";
       }
     </div>
 
-    <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Let's Connect</h2>
+    <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">联系我</h2>
     <p
       class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
-      If you want to stay up to date with my work be sure to <a
+      如果你想了解我的最新动态，请务必在 <a
         href="https://x.com/0xKaibi"
         target="_blank"
-        class="text-indigo-600 underline">follow me on twitter</a
-      >, or you can send me an <a href="mailto:astro-aria#miantiao.me" class="text-indigo-600 underline"
-        >email</a
-      > and I'll be sure to get back to you.
+        class="text-indigo-600 underline">Twitter 上关注我</a
+      >，或者给我发一封<a href="mailto:ron@example.com" class="text-indigo-600 underline"
+        >电子邮件</a
+      >，我一定会回复你。
     </p>
   </section>
 </Layout>
